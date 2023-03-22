@@ -12,6 +12,7 @@ body{
 nav{
     background-color: black;
     height: 80px;
+    width: 100%;
 }
 label.logo{
     color: white;
@@ -132,4 +133,52 @@ a:hover
     padding-left:10px ;
     height: 45px;
     width: 40px;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+/* .uppersection{
+    align-items: center;
+    justify-content: center;
+} */
+
+.about{
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    width: 400px;
+    /* margin-top:650px ; */
+    /* margin-left: 570px; */
+    height:100px;
+    display: inline-block;
+}
+
+.lowersection{
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.aboutme{
+    padding-left: 125px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.aboutpara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 2px;
+}
+
+.help{
+    /* margin-top: 100px; */
+    /* margin-left: 570px; */
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
 }
