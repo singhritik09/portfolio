@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="icon" href="favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
@@ -13,15 +14,15 @@
 <body>
     <nav class="py-4 flex bg-black text-white">
         <ul class="px-2 py-2 space-x-11 flex justify-end">
-            <li class="cursor-pointer font-extrabold">singhritik</li>
-            <li class="cursor-pointer">Home</li>
-            <li class="cursor-pointer">About</li>
+            <li class="cursor-pointer font-extrabold"> singhritik</li>
+            <li class="cursor-pointer"><a href="index.html">Home</a> </li>
+            <li class="cursor-pointer"><a href="about.html">About</a></li>
             <li class="cursor-pointer">Contact</li>
             <li class="cursor-pointer">Blog</li>
         </ul>
 
     </nav>
-    <main class="bg-slate-50 flex my-14 mx-10 shadow-xl rounded-2xl">
+    <main class="bg-slate-50 flex my-14 mx-10 shadow-xl rounded-2xl overflow-hidden">
         <div class="main py-40 pl-9">
             <!-- transition ease-in-out delay-150 -->
       <!-- transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 -->
@@ -47,6 +48,66 @@
         </div>
 
     </main>
+
+
+    <h1 class="font-bold text-3xl mt-4 mb-2 text-center">Projects</h1>
+    <hr class="mt-5 mx-auto w-1/3 border-dotted"> 
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-4 justify-items-center">
+        <div class="py-10 px-2">
+            <div class="rounded overflow-hidden shadow-lg max-w-sm ">
+                <img src="images/computer.png" alt="">
+            </div>
+            <div class="px-7 py-4">
+                <div class="font-bold text-xl mb-2">Inventory and <br>Employee Management</div>
+                <p class="w-1/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt expedita fugit totam id? Nostrum repudiandae, laborum quasi placeat libero cum?</p>
+            </div>
+
+            <div class="px-7 py-2">
+                <button class="px-12 py-2 shadow-lg hover:text-blue-100 text-slate-100 rounded-full bg-slate-900 ">
+                   <a href="https://github.com/singhritik09/Inventory_Management">Visit</a>
+                </button>
+            </div>
+
+        </div>
+
+        <div class="py-10 px-2">
+            <div class="rounded overflow-hidden shadow-lg max-w-sm ">
+                <img src="images/computer.png" alt="">
+            </div>
+            <div class="px-7 py-4">
+                <div class="font-bold text-xl mb-2">Blogging Website</div>
+                <p class="w-1/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt expedita fugit totam id? Nostrum repudiandae, laborum quasi placeat libero cum?</p>
+            </div>
+
+            <div class="px-7 py-2">
+                <button class="px-12 py-2 shadow-lg hover:text-blue-100 text-slate-100 rounded-full bg-slate-900 ">
+                   <a href="">Visit</a>
+                </button>
+            </div>
+
+        </div>
+
+        <div class="py-10 px-2">
+            <div class="rounded overflow-hidden shadow-lg max-w-sm ">
+                <img src="images/computer.png" alt="">
+            </div>
+            <div class="px-7 py-4">
+                <div class="font-bold text-xl mb-2">Faculty Self <br>Appraisal System</div>
+                <p class="w-1/3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt expedita fugit totam id? Nostrum repudiandae, laborum quasi placeat libero cum?</p>
+            </div>
+        
+            <div class="px-7 py-2">
+                <button class="px-12 py-2 shadow-lg hover:text-blue-100 text-slate-100 rounded-full bg-slate-900 ">
+                   <a href="https://github.com/singhritik09/facultyselfappraisal">Visit</a>
+                </button>
+            </div>
+
+        </div>
+        
+
+    </div>
+
 </body>
 
 </html>
